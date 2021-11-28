@@ -10,4 +10,4 @@ DROP table IF EXISTS goods;
 DROP table IF EXISTS producers;
 DROP table IF EXISTS categories;
 
-DROP SEQUENCE IF EXISTS good_generator;
+DROP SEQUENCE IF EXISTS good_seq;

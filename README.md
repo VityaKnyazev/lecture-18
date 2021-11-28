@@ -38,6 +38,10 @@ car-service-entity, etc</li>
 <ol>
 <li>Build project: $mvn clean install</li>
 <li>Run new mysql server for the App: $docker-compose up -d</li>
-<li>Run liquibase to create tables and insert data: $cd persistence/ then $mvn liquibase:update</li>
+<li>Run liquibase to create tables and insert data:</li>
+<ol>
+<li>$cd persistence/</li>
+<li>then $mvn liquibase:update</li>
+</ol>
 <li>Run App</li>
 </ol>

@@ -6,6 +6,14 @@
 	version="2.1">
 	<persistence-unit name="persistentContext">
 		<description>EntityManager starting context for lecture-18</description>
+		
+		<class>by.itacademy.javaenterprise.knyazev.embedables.Address</class>
+		<class>by.itacademy.javaenterprise.knyazev.entities.Category</class>
+		<class>by.itacademy.javaenterprise.knyazev.entities.Good</class>
+		<class>by.itacademy.javaenterprise.knyazev.entities.Producer</class>
+		<class>by.itacademy.javaenterprise.knyazev.entities.Storehouse</class>
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+		
 		<properties>
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.PostgreSQLDialect" />
