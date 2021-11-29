@@ -31,13 +31,17 @@ car-service-entity, etc</li>
 <li>Used at least 5 field level annotations (for example transient)</li>
 <li>Used at least 2 differ id generation strategy</li>
 <li>Created custom id generation strategy on Good.class<</li>
-<li></li>
+<li>Created custom name generation strategy with stolen method convert() that convert from camel case to snake lower case name</li>
 </ol>
 
 <h3>To run App you should:</h3>
 <ol>
 <li>Build project: $mvn clean install</li>
 <li>Run new mysql server for the App: $docker-compose up -d</li>
-<li>Run liquibase to create tables and insert data: $cd persistence/ then $mvn liquibase:update</li>
+<li>Run liquibase to create tables and insert data:</li>
+<ol>
+<li>$cd persistence/</li>
+<li>then $mvn liquibase:update</li>
+</ol>
 <li>Run App</li>
 </ol>
