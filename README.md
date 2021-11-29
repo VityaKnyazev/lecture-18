@@ -31,7 +31,7 @@ car-service-entity, etc</li>
 <li>Used at least 5 field level annotations (for example transient)</li>
 <li>Used at least 2 differ id generation strategy</li>
 <li>Created custom id generation strategy on Good.class<</li>
-<li></li>
+<li>Created custom name generation strategy with stolen method convert() that convert from camel case to snake lower case name</li>
 </ol>
 
 <h3>To run App you should:</h3>

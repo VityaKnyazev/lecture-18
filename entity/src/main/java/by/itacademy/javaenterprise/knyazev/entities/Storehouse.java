@@ -35,7 +35,7 @@ public class Storehouse {
 	@JoinColumn(name = "good_id", nullable = false)
 	private Good good;
 	
-	@Column(name = "ttn_num", length = 15)
+	@Column(length = 15)
 	private String ttnNum;
 	
 	@Column(name = "date", updatable = false)
